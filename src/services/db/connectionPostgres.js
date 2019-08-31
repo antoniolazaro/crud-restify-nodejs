@@ -1,10 +1,10 @@
 const {Client} = require('pg')
 
 const client = new Client({
-  user: 'consilium_pcp',
+  user: 'node',
   host: 'localhost',
-  database: 'consilium',
-  password: 'consilium_pcp',
+  database: 'demo',
+  password: 'node',
   port: 5432
 })
 client.connect()
